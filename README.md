@@ -64,6 +64,7 @@ Train the model
 Check accuracy
 
 Test spam/ham predictions
+```
 
 ##📈 Model Evaluation
 
@@ -81,11 +82,6 @@ Deploy using Flask or Streamlit
 
 Save and load trained model
 
-##👤 Author
-
-Kishan Harishchandra Prabhu
-Machine Learning Engineer (Fresher)
-GitHub: https://github.com/codgammer
 
 README
 
@@ -110,6 +106,12 @@ GIT
 echo "✅ Project setup completed successfully!"
 echo "➡️ Copy Project_spam_classifier.ipynb and mail_data.csv into this folder."
 EOF
+
+##👤 Author
+
+Kishan Harishchandra Prabhu
+Machine Learning Engineer (Fresher)
+GitHub: https://github.com/codgammer
 
 
 ---
