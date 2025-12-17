@@ -56,3 +56,65 @@ pip install -r requirements.txt
 
 3️⃣ Run the Jupyter Notebook
 jupyter notebook Project_spam_classifier.ipynb
+
+4️⃣ Execute all cells to:
+
+Train the model
+
+Check accuracy
+
+Test spam/ham predictions
+
+##📈 Model Evaluation
+
+Model performance is evaluated using Accuracy Score
+
+Effectively classifies spam and non-spam emails
+
+##🔮 Future Enhancements
+
+Add precision, recall, and F1-score
+
+Use TF-IDF vectorization
+
+Deploy using Flask or Streamlit
+
+Save and load trained model
+
+##👤 Author
+
+Kishan Harishchandra Prabhu
+Machine Learning Engineer (Fresher)
+GitHub: https://github.com/codgammer
+
+README
+
+echo "📦 Creating requirements.txt..."
+cat << 'REQ' > requirements.txt
+numpy
+pandas
+scikit-learn
+jupyter
+REQ
+
+echo "🚫 Creating .gitignore..."
+cat << 'GIT' > .gitignore
+pycache/
+.ipynb_checkpoints/
+*.pyc
+.env
+venv/
+.DS_Store
+GIT
+
+echo "✅ Project setup completed successfully!"
+echo "➡️ Copy Project_spam_classifier.ipynb and mail_data.csv into this folder."
+EOF
+
+
+---
+
+## ▶️ HOW TO EXECUTE (2 COMMANDS ONLY)
+
+```bash
+bash setup_project.sh
